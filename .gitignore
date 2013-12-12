@@ -7,6 +7,5 @@ config/database.yml
 public/uploads
 lib/**/chef/
 .DS_Store
-vendor
 node_modules
 .idea
