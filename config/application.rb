@@ -21,5 +21,6 @@ module Makeyourtrip
     # config.i18n.default_locale = :de
     config.assets.paths << Rails.root.join("vendor/assets/components")
     config.less.paths << Rails.root.join('vendor/assets')
+    config.assets.initialize_on_precompile = false
   end
 end
